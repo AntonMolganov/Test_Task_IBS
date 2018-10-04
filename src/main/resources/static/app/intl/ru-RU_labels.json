@@ -1,0 +1,35 @@
+{
+  "orderListWindow" : {
+    "title": "Заявки",
+    "columnTitleId": "№",
+    "columnTitleFrom": "От",
+    "columnTitleTo": "Кому",
+    "columnTitleText": "Текст",
+    "columnTitleState": "Статус",
+    "pagingPage": "Страница",
+    "pagingOutOf": "из",
+    "pagingUsers": "Пользователи",
+    "loadingMessage": "Загрузка данных..."
+
+  },
+  "orderDetailsWindow" : {
+    "title": "Детали",
+    "comboLoadingMessage": "Загрузка...",
+    "idTitle": "№",
+    "idTitleNew": "Новая заявка",
+    "fromTitle": "От",
+    "toTitle": "Кому",
+    "textTitle": "Текст",
+    "stateTitle": "Статус",
+    "newButtonTitle": "Новая",
+    "saveButtonTitle": "Сохранить",
+    "deleteButtonTitle": "Удалить",
+    "revertButtonTitle": "Сбросить"
+  },
+  "badValuesMessage": "Ошибка. Необходимо заполнить все поля.",
+  "commonAlertTitle": "Внимание!",
+  "commonAlertSuccess": "Успешно выполнено!",
+  "commonAlertFailure": "Ошибка выполнения!",
+  "commonLoadMaskMessage": "Обработка запроса..."
+
+}

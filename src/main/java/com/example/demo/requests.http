@@ -1,0 +1,97 @@
+
+POST http://localhost:8080/count
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111934.200.txt
+
+###
+
+
+POST http://localhost:8080/list
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111934.200.txt
+
+###
+
+POST http://localhost:8080/list?page=2&start=20&limit=40
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111934.200.txt
+
+###
+
+
+
+
+
+POST http://localhost:8080/details?id=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+
+
+POST http://localhost:8080/update?id=1&from=aaa&to=ttt&text=txt&state=new
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+POST http://localhost:8080/add?from=fff&to=ttt&text=txt&state=new
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+POST http://localhost:8080/delete?id=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+POST http://localhost:8080/dictionary
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+
+POST http://localhost:8080/dictionary?name=states
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+POST http://localhost:8080/dictionary?name=from
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
+
+
+POST http://localhost:8080/dictionary?name=to
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-09-27T111836.200.txt
+
+###
